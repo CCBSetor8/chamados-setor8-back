@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using Microsoft.Identity.Client;
 using Microsoft.EntityFrameworkCore;
 using System.Collections;
+using ChamadosSetor8.Domain.Interfaces;
 
 namespace ChamadosSetor8.Infra.Data.Repositories;
 

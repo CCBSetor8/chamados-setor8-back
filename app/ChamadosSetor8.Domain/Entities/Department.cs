@@ -8,7 +8,7 @@ namespace ChamadosSetor8.Domain.Entities;
 
 public class Department : Entity
 {
-    public Department(int id):base(id) { }
+    public Department() : base() { }
     public string Name { get; private set; }
     public string Description { get; private set; }
 
@@ -18,7 +18,7 @@ public class Department : Entity
         Description = description;
     }
 
-    public Department(int id, string name, string description) : base(id)
+    public Department(int id, string name, string description) : base()
     {
         Name = name;
         Description = description;

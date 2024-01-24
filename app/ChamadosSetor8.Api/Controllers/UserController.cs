@@ -40,9 +40,9 @@ public class UserController : BaseController
     }
 
     [HttpPost]
-    public IActionResult Add([FromBody] AddCommand command)
+    public async Task<IActionResult> Add([FromBody] AddCommand command)
     {
-        return Ok(_mediator.Send(command));
+        return Ok(await _mediator.Send(command));
     }
 
     [HttpPut]

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ChamadosSetor8.Infra.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class START_DATABASE : Migration
+    public partial class MIGRACAO_INICIAL : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

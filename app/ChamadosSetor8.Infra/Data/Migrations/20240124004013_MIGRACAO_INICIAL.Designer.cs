@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ChamadosSetor8.Infra.Data.Migrations
 {
     [DbContext(typeof(Sector8CallsContext))]
-    [Migration("20240118024554_START_DATABASE")]
-    partial class START_DATABASE
+    [Migration("20240124004013_MIGRACAO_INICIAL")]
+    partial class MIGRACAO_INICIAL
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -165,7 +165,7 @@ namespace ChamadosSetor8.Infra.Data.Migrations
 
                     b.HasIndex("UsersId");
 
-                    b.ToTable("ChurchUser");
+                    b.ToTable("ChurchUser", (string)null);
                 });
 
             modelBuilder.Entity("ChamadosSetor8.Domain.Entities.Church", b =>

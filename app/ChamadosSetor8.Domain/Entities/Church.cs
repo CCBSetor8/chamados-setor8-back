@@ -8,7 +8,7 @@ namespace ChamadosSetor8.Domain.Entities;
 
 public class Church : Entity
 {
-    public Church(int id) : base(id) { }
+    public Church() : base() { }
     public string Name { get; private set; } = string.Empty;
     public string Description { get; private set; } = string.Empty;
     public DateTime CreationDate { get; private set; }
@@ -17,23 +17,19 @@ public class Church : Entity
 
     public IEnumerable<User> Users { get; private set; }
 
-    //private void AddGroup(int groupId) => Group = new Group(groupId);
-    public Church() { }
     public Church(string name, string description, int groupId)
     {
         Name = name;
         Description = description;
         GroupId = groupId;
         CreationDate = DateTime.Now;
-       // AddGroup(groupId);
     }
 
-    public Church(int id, string name, string description, int groupId): base(id)
+    public Church(int id, string name, string description, int groupId): base()
     {
         Name = name;
         Description = description;
         GroupId = groupId;
-        //AddGroup(groupId);
     }
 }
 

@@ -15,8 +15,4 @@ public class Entity : IEntity
     {
     }
 
-    public Entity(int id)
-    {
-        Id = id;
-    }
 }

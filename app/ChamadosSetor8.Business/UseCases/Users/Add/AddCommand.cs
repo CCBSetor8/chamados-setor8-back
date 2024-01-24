@@ -14,6 +14,5 @@ public class AddCommand : IRequest<ApiResult<User>>
 
     public static implicit operator User(AddCommand command) =>
         new(name: command.Name, emailAddress: command.EmailAddress,
-            profileId: command.ProfileId, departmentId: command.DepartmentId,
-            churchIds: command.ChurchIds);
+            profileId: command.ProfileId, departmentId: command.DepartmentId);
 }

@@ -9,7 +9,7 @@ namespace ChamadosSetor8.Domain.Entities;
 
 public class Profile : Entity
 {
-    public Profile(int id):base(id) { }
+    public Profile() : base() { }
     public string Name { get; private set; }
     public string Description { get; private set; }
 

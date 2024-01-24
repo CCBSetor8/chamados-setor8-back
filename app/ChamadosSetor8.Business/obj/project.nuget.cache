@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t4SHL/5AezM7SYy8TWZXgBBSloWcggrCXpkDpkPYEHAgGoBmDMvqKvHOQfrqZVFtxoiWi4ZeXjCMrQMgyBhSrw==",
+  "dgSpecHash": "xXefLYMvTbhIymIY1gklD93HMiHYMe6GsCMTk2Qy6ZlS+Ny6JKgyZe4zL75b27F1gDvrAktCIL5jYj4oylbs/Q==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\study\\projects\\chamados-ccb\\chamados-setor8-back\\app\\ChamadosSetor8.Business\\ChamadosSetor8.Business.csproj",
+  "projectFilePath": "C:\\projects\\study\\projects\\chamados-ccb\\chamados-setor8-back\\app\\ChamadosSetor8.Business\\ChamadosSetor8.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JonathanOliveira\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\JonathanOliveira\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

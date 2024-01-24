@@ -9,5 +9,6 @@ namespace ChamadosSetor8.Domain.Interfaces.Repositories
 {
     public interface IChurchRepository: IRepositoryBase<Church>
     {
+        Task<IList<Church>> GetByIdsAsync(IEnumerable<int> ids);
     }
 }

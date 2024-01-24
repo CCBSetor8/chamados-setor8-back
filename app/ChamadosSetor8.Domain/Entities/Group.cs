@@ -18,7 +18,7 @@ public class Group : Entity
         CreationDate = DateTime.Now;
     }
 
-    public Group(int id, string name): base(id) 
+    public Group(int id, string name): base() 
     {
         Name = name;
     }

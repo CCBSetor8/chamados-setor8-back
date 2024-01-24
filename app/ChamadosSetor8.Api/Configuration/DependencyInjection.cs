@@ -20,7 +20,6 @@ namespace ChamadosSetor8.Api.Configuration
             #endregion
 
             #region Services
-            //services.AddMediatR(typeof(GetAllQuery));
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
 
             #endregion

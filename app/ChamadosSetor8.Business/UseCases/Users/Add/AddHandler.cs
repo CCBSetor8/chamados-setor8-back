@@ -14,16 +14,27 @@ namespace ChamadosSetor8.Business.UseCases.Users.Add;
 public class AddHandler : IRequestHandler<AddCommand, ApiResult<User>>
 {
     private readonly IUserRepository _userRepository;
-    public AddHandler(IUserRepository userRepository)
+    private readonly IChurchRepository _churchRepository;
+    public AddHandler(IUserRepository userRepository, IChurchRepository churchRepository)
     {
         _userRepository = userRepository;
+        _churchRepository = churchRepository;
     }
 
     public async Task<ApiResult<User>> Handle(AddCommand command, CancellationToken cancellationToken)
     {
-        var apiResult = new ApiResult<User>();
-        var user = (User)command;
 
-        return apiResult.SetData(await _userRepository.AddAsync(user));
+        var apiResult = new ApiResult<User>();
+
+
+        var user = ((User)command);
+
+        var churchs = await _churchRepository.GetByIdsAsync(command.ChurchIds);
+
+        var userResponse = await _userRepository.AddAsync(user);
+
+        await _userRepository.SaveAsync();
+
+        return apiResult.SetData(userResponse);
     }
 }

@@ -14,7 +14,7 @@ builder.Services.AddSwaggerGen();
 //C:\Projects\study\projects\chamados-ccb\chamados-setor8-back\ChamadosSetor8\app\ChamadosSetor8.Api>dotnet ef migrations add MIGRACAO_INICIAL  --project ../ChamadosSetor8.Infra/ChamadosSetor8.Infra.csproj --output-dir Data\Migrations
 
 builder.Services.AddDbContext<Sector8CallsContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("SQL_SERVER")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SQL_SERVER")), ServiceLifetime.Scoped);
 
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining(typeof(GetAllQuery)));

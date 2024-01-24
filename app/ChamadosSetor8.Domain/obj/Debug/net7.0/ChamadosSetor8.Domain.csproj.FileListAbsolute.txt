@@ -21,4 +21,4 @@ C:\Projects\study\projects\chamados-ccb\chamados-setor8-back\app\ChamadosSetor8.
 C:\Projects\study\projects\chamados-ccb\chamados-setor8-back\app\ChamadosSetor8.Domain\obj\Debug\net7.0\refint\ChamadosSetor8.Domain.dll
 C:\Projects\study\projects\chamados-ccb\chamados-setor8-back\app\ChamadosSetor8.Domain\obj\Debug\net7.0\ChamadosSetor8.Domain.pdb
 C:\Projects\study\projects\chamados-ccb\chamados-setor8-back\app\ChamadosSetor8.Domain\obj\Debug\net7.0\ref\ChamadosSetor8.Domain.dll
-C:\Projects\study\projects\chamados-ccb\chamados-setor8-back\app\ChamadosSetor8.Domain\obj\Debug\net7.0\ChamadosSetor8.Domain.csproj.AssemblyReference.cache
+C:\projects\study\projects\chamados-ccb\chamados-setor8-back\app\ChamadosSetor8.Domain\obj\Debug\net7.0\ChamadosSetor8.Domain.csproj.AssemblyReference.cache

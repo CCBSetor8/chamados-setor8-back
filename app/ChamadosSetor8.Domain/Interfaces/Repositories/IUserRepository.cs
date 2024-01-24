@@ -10,4 +10,5 @@ namespace ChamadosSetor8.Domain.Interfaces.Repositories;
 public interface IUserRepository : IRepositoryBase<User>
 {
     public Task<IList<User>> GetAllCompleteAsync();
+
 }

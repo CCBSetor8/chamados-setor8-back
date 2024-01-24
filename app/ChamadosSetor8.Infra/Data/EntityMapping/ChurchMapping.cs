@@ -25,6 +25,11 @@ namespace ChamadosSetor8.Infra.Data.EntityConfiguration
             builder.Property(c => c.Name).IsRequired();
 
             builder.Property(c => c.Description).IsRequired();
+
+            builder
+            .HasMany(u => u.Users)
+            .WithMany(c => c.Churchs)
+            .UsingEntity(j => j.ToTable("ChurchUser"));
         }
     }
 }

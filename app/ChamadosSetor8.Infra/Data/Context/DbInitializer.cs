@@ -103,12 +103,13 @@ namespace ChamadosSetor8.Infra.Data.Context
                 if (!context.User.Any())
                 {
 
-                    var churchs = context.Church.Where(x => (new List<int> { 1, 2 }).Contains(x.Id));
+                    var churchs = context.Church.Where(x => (new List<int> { 1}).Contains(x.Id));
 
                     var users = new User[]
                     {
-                        new User("Miriane","miriane@gmail.com",1,1,churchs.ToList()),
-                        new User("Jonathan","Jonathan@gmail.com",1,1,churchs.ToList()),
+                        new User("Miriane","miriane@gmail.com",1,1).AddChurchs(churchs.ToList()),
+                    //    new User("Jonathan","jonathan@gmail.com",1,1).AddChurchs(churchs.ToList()),
+                    //    new User("Simon","simon@gmail.com",1,1).AddChurchs(churchs.ToList()),
                     };
 
                     foreach (var user in users)
@@ -118,6 +119,11 @@ namespace ChamadosSetor8.Infra.Data.Context
 
                     context.SaveChanges();
                 }
+
+
+
+
+
             }
             catch (Exception ex)
             {

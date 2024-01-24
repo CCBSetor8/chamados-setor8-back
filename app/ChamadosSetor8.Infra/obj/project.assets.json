@@ -2908,11 +2908,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\study\\projects\\chamados-ccb\\chamados-setor8-back\\app\\ChamadosSetor8.Infra\\ChamadosSetor8.Infra.csproj",
+      "projectUniqueName": "C:\\projects\\study\\projects\\chamados-ccb\\chamados-setor8-back\\app\\ChamadosSetor8.Infra\\ChamadosSetor8.Infra.csproj",
       "projectName": "ChamadosSetor8.Infra",
-      "projectPath": "C:\\Projects\\study\\projects\\chamados-ccb\\chamados-setor8-back\\app\\ChamadosSetor8.Infra\\ChamadosSetor8.Infra.csproj",
+      "projectPath": "C:\\projects\\study\\projects\\chamados-ccb\\chamados-setor8-back\\app\\ChamadosSetor8.Infra\\ChamadosSetor8.Infra.csproj",
       "packagesPath": "C:\\Users\\JonathanOliveira\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\study\\projects\\chamados-ccb\\chamados-setor8-back\\app\\ChamadosSetor8.Infra\\obj\\",
+      "outputPath": "C:\\projects\\study\\projects\\chamados-ccb\\chamados-setor8-back\\app\\ChamadosSetor8.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\JonathanOliveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2929,8 +2929,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Projects\\study\\projects\\chamados-ccb\\chamados-setor8-back\\app\\ChamadosSetor8.Domain\\ChamadosSetor8.Domain.csproj": {
-              "projectPath": "C:\\Projects\\study\\projects\\chamados-ccb\\chamados-setor8-back\\app\\ChamadosSetor8.Domain\\ChamadosSetor8.Domain.csproj"
+            "C:\\projects\\study\\projects\\chamados-ccb\\chamados-setor8-back\\app\\ChamadosSetor8.Domain\\ChamadosSetor8.Domain.csproj": {
+              "projectPath": "C:\\projects\\study\\projects\\chamados-ccb\\chamados-setor8-back\\app\\ChamadosSetor8.Domain\\ChamadosSetor8.Domain.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X02Ov3IGWRkmUjGTKGSYi2IHU1o/yS9dF7gMgQ/OomO2vJnLsNLapBJMCJh4biCySO62XBRwWJlqppihg+c3Vg==",
+  "dgSpecHash": "hO84nJqvVGldRRLfiCbqHL1vSqlNTF0nvZ38gpc6iV6kY3AmUCVlCm8YZQUdqO8vnf11zyjmAvc2bMabBXNTwg==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\study\\projects\\chamados-ccb\\chamados-setor8-back\\app\\ChamadosSetor8.Api\\ChamadosSetor8.Api.csproj",
+  "projectFilePath": "C:\\projects\\study\\projects\\chamados-ccb\\chamados-setor8-back\\app\\ChamadosSetor8.Api\\ChamadosSetor8.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JonathanOliveira\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\JonathanOliveira\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
